@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>com.hackerrank.weather.model.Location</class-a>
+        <class-b>com.hackerrank.weather.dto.LocationDTO</class-b>
+        <field>
+            <a>cityName</a>
+            <b>city</b>
+        </field>
+        <field>
+            <a>stateName</a>
+            <b>state</b>
+        </field>
+        <field>
+            <a>latitude</a>
+            <b>lat</b>
+        </field>
+        <field>
+            <a>longitude</a>
+            <b>lon</b>
+        </field>
+    </mapping>
+
+    <mapping>
+        <class-a>com.hackerrank.weather.model.Location</class-a>
+        <class-b>com.hackerrank.weather.dto.TemperatureDTO</class-b>
+        <field>
+            <a>cityName</a>
+            <b>city</b>
+        </field>
+        <field>
+            <a>stateName</a>
+            <b>state</b>
+        </field>
+        <field>
+            <a>latitude</a>
+            <b>lat</b>
+        </field>
+        <field>
+            <a>longitude</a>
+            <b>lon</b>
+        </field>
+    </mapping>
+
+    <mapping>
+        <class-a>com.hackerrank.weather.model.Weather</class-a>
+        <class-b>com.hackerrank.weather.dto.WeatherDTO</class-b>
+        <field>
+            <a>dateRecorded</a>
+            <b>date</b>
+        </field>
+    </mapping>
+
+</mappings>
